@@ -1,0 +1,3 @@
+base:
+  "*":
+    - sentry_base
