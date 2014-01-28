@@ -1,6 +1,6 @@
 base:
   '*':
-    # - supervisord
+    - supervisord
     - postgres
     - firewall
     - sentry

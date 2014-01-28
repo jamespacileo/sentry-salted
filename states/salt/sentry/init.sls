@@ -58,7 +58,7 @@ sentry-virtualenv:
     - mode: 640
     - template: jinja
 
-/etc/init/sentry.conf:
-  file.managed:
-    - source: salt://sentry/upstart.conf
-    - template: jinja
+# /etc/init/sentry.conf:
+#   file.managed:
+#     - source: salt://sentry/upstart.conf
+#     - template: jinja
